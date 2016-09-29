@@ -1,4 +1,4 @@
-var app = angular.module('mgcrea.ngStrapDocs', ['ngAnimate', 'ngSanitize', 'mgcrea.ngStrap']);
+var app = angular.module('myApp', ['ngAnimate', 'ngSanitize', 'mgcrea.ngStrap']);
 
 app.controller('MyCtrl', function($scope,$modal) {
    var modalInstance = $modal({scope: $scope, template: 'template.html', show: false});
